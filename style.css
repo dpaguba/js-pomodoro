@@ -1,1 +1,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300;400;900&family=Open+Sans:wght@300;400;600&family=PT+Sans&family=Secular+One&display=swap");
+
+:root {
+  font-size: 62.5%;
+
+  --color-primary: hsl(235, 35%, 19%);
+  --color-secondary: hsl(358, 78%, 69%);
+  --color-font: hsl(0, 0%, 100%, 0.982);
+
+  --color-shadow: hsl(235, 30%, 35%);
+}
+
+html,
+body {
+  height: 100%;
+  background-color: var(--color-primary);
+  font-size: 24px;
+  font-family: "Open Sans", sans-serif;
+}
+
+p,
+i,
+h1 {
+  color: var(--color-font);
+}
+
+i,
+h1 {
+  font-size: 50px;
+}
