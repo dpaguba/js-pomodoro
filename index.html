@@ -12,6 +12,36 @@
     ></script>
   </head>
   <body>
+    <section>
+      <div class="container">
+        <h1>Pomodoro</h1>
+
+        <div class="pannel">
+          <p id="work">Work</p>
+          <p id="break">Break</p>
+        </div>
+
+        <div class="timer">
+          <div class="circle">
+            <div class="time">
+              <p id="minutes">25</p>
+              <p>:</p>
+              <p id="seconds">00</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="controls">
+          <button id="start" onclick="start()">
+            <i class="fa-solid fa-play"></i>
+          </button>
+          <a id="reset" href="/"
+            ><i class="fa-solid fa-arrow-rotate-left"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+
     <script src="script.js"></script>
   </body>
 </html>
